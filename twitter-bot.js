@@ -1,10 +1,10 @@
 var Twit = require('twit');
 
 var TwitterBot = new Twit({
-  consumer_key: 'wVmiW2RqRHmD2KTOQHn8dtQYG'
-  , consumer_secret: 'pfOI5INWpbrsf3JWUpWAwGljohzRboDyZ0YabWXcohKAz6cSdp'
-  , access_token: '2531599472-iahmknoc83RGk81UlK8Xd4m8pxbtit2f5iy1YBK'
-  , access_token_secret: 'HpPU0I3BUueGY4G6ZA1alZs1XYUgrLtf8lkbJW6jZn8fO'
+  consumer_key: '<insert here>'
+  , consumer_secret: '<insert here>'
+  , access_token: '<insert here>'
+  , access_token_secret: '<insert here>'
 });
 
 exports.searchByTag = function(options, callback) {
